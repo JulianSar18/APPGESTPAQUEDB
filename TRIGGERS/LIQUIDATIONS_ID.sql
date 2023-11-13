@@ -1,0 +1,15 @@
+--------------------------------------------------------
+--  DDL for Trigger LIQUIDATIONS_ID
+--------------------------------------------------------
+
+  CREATE OR REPLACE EDITIONABLE TRIGGER "APP_GEST_PAQU"."LIQUIDATIONS_ID" 
+BEFORE INSERT ON APP_GEST_PAQU.LIQUIDATIONS
+FOR EACH ROW
+
+BEGIN
+  SELECT SEQ_LIQUIDATIONS.NEXTVAL
+  INTO   :new.id
+  FROM   dual;
+END;
+/
+ALTER TRIGGER "APP_GEST_PAQU"."LIQUIDATIONS_ID" ENABLE;
