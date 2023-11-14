@@ -27,5 +27,5 @@ PROMPT -----------SCHEMA SUCCESSFULLY CREATED----------
 
 
 PROMPT ------------------------------------------------
-PROMPT END OF TC_SB_35_SYS_SCRIPT.sql
+PROMPT END OF APP_GEST_PAQU_SYS.sql
 PROMPT ------------------------------------------------
